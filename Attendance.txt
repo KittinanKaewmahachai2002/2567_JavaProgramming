@@ -1,4 +1,4 @@
-StudentId:00177
+StudentId:2413140019
 StudentName:Kittinan Kaewmahachai
-Date:11/18/2024
-Topic:work with Github
+Date:11/25/2024
+Topic:Display, Variable and Input
