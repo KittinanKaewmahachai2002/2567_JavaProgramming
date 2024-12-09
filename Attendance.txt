@@ -1,4 +1,4 @@
 StudentId:2413140019
 StudentName:Kittinan Kaewmahachai
-Date:12/2/2024
-Topic:Control Statements and Confirm Dialog box
+Date:12/9/2024
+Topic:String Method
