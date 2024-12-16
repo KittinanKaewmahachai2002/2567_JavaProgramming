@@ -1,4 +1,4 @@
 StudentId:2413140019
 StudentName:Kittinan Kaewmahachai
-Date:12/9/2024
-Topic:String Method
+Date:12/16/2024
+Topic:Method
