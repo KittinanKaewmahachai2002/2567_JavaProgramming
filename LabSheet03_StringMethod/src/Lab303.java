@@ -1,3 +1,5 @@
+package week3;
+
 import java.util.*;
 public class Lab303 {
 
@@ -8,7 +10,7 @@ public class Lab303 {
 		System.out.print("Input a sentence : ");
 		String sentence = kb.nextLine();
 		while(true) {
-			if(sentence.endsWith(".")) {
+			if(sentence.endsWith(".") && !sentence.startsWith(" ")) {
 				break;
 			}
 			else {

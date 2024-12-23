@@ -1,3 +1,5 @@
+package week3;
+
 import javax.swing.*;
 public class Lab303_1 {
 
@@ -5,7 +7,7 @@ public class Lab303_1 {
 		String sentence = JOptionPane.showInputDialog("Input a sentence:");
 		int	countSpacebar = 0;
 		while(true) {
-			if(sentence.endsWith(".")) {
+			if(sentence.endsWith(".") && !sentence.startsWith(" ")) {
 				break;
 			}
 			else {
@@ -23,3 +25,4 @@ public class Lab303_1 {
 	}
 
 }
+

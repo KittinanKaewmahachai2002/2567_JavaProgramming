@@ -1,3 +1,4 @@
+package week3;
 import java.util.*;
 public class Lab304 {
 
@@ -7,21 +8,15 @@ public class Lab304 {
 		String lastName;
 		System.out.print("Full Name: ");
 		String fullName = scan.nextLine();
-		for(int i=0;i<fullName.length();i++) {
-			char spaceName = fullName.charAt(i);
-				if(spaceName == ' ') {
-					firstName = fullName.substring(0,i);
-					lastName = fullName.substring(i,(fullName.length()-1));
-					System.out.println("First Name: "+firstName);
-					System.out.println("Last Name: "+lastName);
-					break;
-				}
-				else if{
-					
-				}
-		}//end for loop
-		
+		if(fullName.contains(" ")) {
+			firstName = fullName.substring(0,fullName.indexOf(" "));
+			lastName = fullName.substring(fullName.indexOf(" "),fullName.length());
+			System.out.println("First Name: "+firstName.toUpperCase());
+			System.out.println("Last Name: "+lastName.toLowerCase());
+		}
+		else {
+			System.out.println("Incorrect Name");
+		}
 		scan.close();
 	}
-
 }
