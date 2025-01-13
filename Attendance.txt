@@ -1,4 +1,4 @@
 StudentId:2413140019
 StudentName:Kittinan Kaewmahachai
-Date:12/23/2024
-Topic:Array and Array Method
+Date:1/13/2025
+Topic:Class and Object
