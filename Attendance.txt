@@ -1,4 +1,4 @@
 StudentId:2413140019
 StudentName:Kittinan Kaewmahachai
-Date:1/13/2025
-Topic:Class and Object
+Date:1/20/2025
+Topic:Encapsulation Concept
